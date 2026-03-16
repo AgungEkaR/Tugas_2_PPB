@@ -8,47 +8,6 @@ Tugas ke-2
 
 ---
 
-## Struktur Tree
-
-```
-MyApp
-└── MaterialApp
-    └── RowColumnPage
-        └── Scaffold
-            ├── AppBar
-            │   └── Text
-            │
-            └── Column
-                ├── Container
-                │   └── AspectRatio
-                │       └── Container
-                │           └── Center
-                │               └── Image.network
-                │
-                ├── Container
-                │   └── Text
-                │
-                ├── Container
-                │   └── Row
-                │       ├── Column
-                │       │   ├── Icon
-                │       │   └── Text
-                │       ├── Column
-                │       │   ├── Icon
-                │       │   └── Text
-                │       └── Column
-                │           ├── Icon
-                │           └── Text
-                │
-                └── CounterCard
-                    └── Container
-                        └── Row
-                            ├── Text
-                            └── IconButton
-```
-
----
-
 ## Penjelasan Kode
 
 ### 1. Fungsi main()
