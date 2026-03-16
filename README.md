@@ -56,7 +56,7 @@ Pada bagian ini digunakan untuk menentukan halaman utama aplikasi yaitu `RowColu
 class RowColumnPage extends StatelessWidget
 ```
 
-Widget ini merupakan halaman utama aplikasi. Di dalamnya terdapat komponen UI seperti gambar, teks, ikon, dan counter.
+Widget ini merupakan halaman utama aplikasi. Di dalamnya terdapat komponen UI seperti gambar, teks, ikon, dan counter. Karena tampilan pada halaman ini bersifat statis dan tidak memiliki data yang berubah, maka cukup menggunakan stateles.
 
 ---
 
@@ -164,7 +164,7 @@ Setiap ikon ditampilkan menggunakan kombinasi **Icon** dan **Text**. Pada aplika
 class CounterCard extends StatefulWidget
 ```
 
-Widget ini menggunakan **StatefulWidget** karena nilai counter dapat berubah ketika tombol ditekan.
+Widget ini menggunakan stateful karena nilai counter dapat berubah ketika tombol ditekan.
 
 Nilai counter disimpan dalam variabel:
 
@@ -182,8 +182,6 @@ setState(() {
 });
 ```
 
-`setState()` digunakan untuk memperbarui tampilan ketika nilai counter berubah.
-
-Setiap kali tombol ditekan, nilai counter akan bertambah satu dan tampilan pada layar akan ikut diperbarui.
+`setState()` digunakan untuk memperbarui tampilan ketika nilai counter berubah. Setiap kali tombol ditekan, nilai counter akan bertambah satu dan tampilan pada layar akan ikut diperbarui.
 
 ---
