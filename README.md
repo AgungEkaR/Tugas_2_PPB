@@ -215,7 +215,7 @@ int _counter = 0;
 
 ---
 
-### 9. setState()
+### 14. setState()
 
 ```
 setState(() {
