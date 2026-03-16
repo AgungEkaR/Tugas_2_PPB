@@ -1,11 +1,9 @@
 ## Biodata
-Agung Eka Ramadhan
-
+Agung Eka Ramadhan<br>
 502231244
 
 ## Mata Kuliah
-Pemrograman Perangkat Bergerak (E)
-
+Pemrograman Perangkat Bergerak (E)<br>
 Tugas ke-2
 
 ---
